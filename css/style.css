@@ -1,0 +1,273 @@
+
+body{
+	font: 13px/1.5 'Open Sans', arial, sans-serif;
+    background: #f3f3f3;
+    color: #777777;
+    padding-bottom: 0;
+}
+
+h3{
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 36px;
+}
+
+.navbar{
+	margin-bottom: 0;
+}
+
+.navbar-default{
+	background: url(../images/headerBG.png) repeat-x left bottom#76c7c0;
+	border-radius: 0;
+	padding: 28px 0 22px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    border-radius: 5px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background-color: #62a29e;
+    box-shadow: 0 3px 0 #528b86;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background-color: #e8645a;
+    box-shadow: 0 3px 0 #e2534b;
+}
+
+/*================ carousel ==================*/
+
+.carousel {
+    height: 300px;
+}
+
+.carousel .item {
+    height: 300px;
+}
+
+.carousel-inner > .item > img {
+    height: 300px;
+}
+
+.carousel-caption{
+	top: 10px;
+}
+
+.carousel-caption h1{
+	background: #e2534b;
+	padding: 6px 12px;
+	display: inline-block;
+	border-radius: 5px;
+	text-shadow: none
+}
+
+.carousel-caption p{
+	font-size: 16px;
+	background: rgba(0,0,0,.5);
+	display: inline-block;
+	padding: 14px 38px;
+	border-radius: 5px;
+	text-shadow: none;
+}
+
+.carousel-indicators .active {
+    width: 60px;
+    height: 5px;
+    margin: 1px;
+    background-color: #e2534b;
+}
+
+.carousel-indicators li {
+    width: 60px;
+    height: 5px;
+    background-color: #b0b8b9;
+    border: none;
+    border-radius: 0;
+}
+
+.carousel-indicators {
+    bottom: -30px;
+}
+
+/*================ services ==================*/
+
+.services{
+    margin-bottom: 50px;
+}
+
+.services .container{
+    background: #ececec;
+    border-radius: 5px;
+}
+
+.viewMore{
+    background: #e8645a;
+    border: none;
+    padding: 9px 44px;
+    margin-top: 30px;
+}
+
+.innerBox{
+    height: 310px;
+    background: #f8f8f8;
+    text-align: center;
+    padding: 47px 17px;
+    position: relative;
+}
+
+.icon{
+    font: 60px 'fontAwesome';
+    color: #62bdbd;
+}
+
+.readMore{
+    position: absolute;
+    width: 75%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -15px;
+    background: #76c7c0;
+    border: none;
+    box-shadow: 0 3px 0 #62b9b0;
+    padding: 9px 44px;
+}
+
+/*================ content ==================*/
+
+.innerBox{
+    margin-bottom: 30px;
+}
+
+.innerBox:hover{
+    background: white;
+}
+
+.innerBox:hover .icon{
+   color: #e8645a;
+}
+
+.innerBox:hover .readMore{
+    background: #e8645a;
+    border: none;
+    margin-top: 30px;
+    box-shadow: 0 3px 0 #e2534b;
+}
+
+/*================ fat footer ==================*/
+
+.fatFooter{
+    background: url(../images/footerBG.png) repeat-x #76c7c0;
+    padding: 48px 0;
+    color: white;
+    margin-top: 50px;
+}
+
+.fatFooter .logo, .fatFooter p{
+    margin-bottom: 34px;
+}
+
+.fatFooter h3{
+    font-size: 23px;
+    margin-bottom: 30px;
+    color: rgba(0,0,0,.5);
+    margin-top: 0;
+}
+
+.fatFooter ul{
+    list-style-image: url(../images/arrow.png);
+    padding-left: 15px;
+}
+
+.fatFooter a{
+    color: white;
+}
+
+.info{
+    font-size: 20px;
+    font-style: italic;
+}
+
+/*================ footer ==================*/
+
+footer{
+    background: #6ab3ac;
+    color: white;
+    padding: 23px 0 18px;
+}
+
+.social li{
+    float: left;
+    list-style: none;
+}
+
+.social li a{
+    display: block;
+    width: 34px;
+    height: 34px;
+}
+
+.facebook{
+    background: url(../images/social.png) no-repeat 0 0;
+}
+
+.gplus{
+    background: url(../images/social.png) no-repeat 33% 0;
+}
+
+.twitter{
+    background: url(../images/social.png) no-repeat 66% 0;
+}
+
+.rss{
+    background: url(../images/social.png) no-repeat 99% 0;
+}
+
+@media(min-width: 768px){
+
+.navbar-collapse{
+	float: right;
+}
+
+.navbar-nav>li>a {
+    padding: 10px 13px;
+}
+
+.navbar-nav>li{
+	margin-right: 11px;
+}
+
+.carousel {
+    height: 500px;
+}
+
+.carousel .item {
+    height: 500px;
+}
+
+.carousel-inner > .item > img {
+    height: 500px;
+}
+
+.carousel-caption{
+	top: 160px;
+}
+
+}
+
+@media(min-width: 768px) and (max-width: 992px){
+
+.navbar-nav>li>a {
+    padding: 10px 13px;
+    font-size: 11px;
+}
+
+.navbar-nav>li{
+	margin-right: 0;
+}
+
+}
